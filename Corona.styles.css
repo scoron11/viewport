@@ -1,4 +1,4 @@
-/* YOUR NAME GOES HERE */
+/* Sean Corona */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
@@ -31,7 +31,16 @@
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
+body {
+    background-color: #e4e4e4;
+    color: #545454;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #ddd;
+    }
+}
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
