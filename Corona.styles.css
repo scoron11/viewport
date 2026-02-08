@@ -84,8 +84,8 @@ body {
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #333;
-        color: #ddd;
+        background-color: var(--dark-gray);
+        color: var(--white);
     }
 }
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
