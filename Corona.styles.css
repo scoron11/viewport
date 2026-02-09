@@ -153,12 +153,13 @@ footer .icon{
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
-/* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
-@media (prefers-reduced-motion: reduce) {
+    @media (prefers-reduced-motion: reduce) {
     .icon {
         animation: none;
     }
 }
+
+/* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
 /* ----- TEXT ----- */
 p, small{
