@@ -79,8 +79,8 @@ table {
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 body {
-    background-color: #e4e4e4;
-    color: #545454;
+    background-color: var(--white);
+    color: var(--dark-gray);
 }
 @media (prefers-color-scheme: dark) {
     body {
